@@ -1,13 +1,13 @@
 * {
-    font-family: 'Museo Sans Cyrl 500';
-   
+    font-family: 'Museo Sans Cyrl';
+    
 }
-
 @import 'base/_variables';
+@import 'blocks/promo';
+@import 'blocks/header';
+@import 'blocks/buttons';
 
 .container {
     max-width: 950px;
     margin: 0 auto;
 }
-@import 'blocks/promo';
-@import 'blocks/header';
