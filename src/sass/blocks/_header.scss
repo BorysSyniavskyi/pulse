@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+   
     &__logo {
         width: 250px;
         img {
@@ -38,6 +39,7 @@
         flex-direction: column;
         align-items: flex-end;
     }
-
-        
+} 
+.xs-visible {
+    display: none;
 }
