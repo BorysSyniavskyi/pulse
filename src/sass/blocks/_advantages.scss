@@ -10,19 +10,23 @@
     padding: 70px 0 64px 0;
     background: #F6F6F6;
     &__icons {
+        
         margin-top: 60px;
         display: flex;
         justify-content: space-between;
+        
 
     }
     &__icon {
         
+
         img {
             display: block;
             margin: 0 auto;
         }
     }
     &__descr {
+        margin: 0 auto;
         margin-top: 30px;
         width: 254px;
     }
