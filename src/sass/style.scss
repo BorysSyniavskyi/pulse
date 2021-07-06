@@ -2,17 +2,18 @@
     font-family: 'Museo Sans Cyrl';
     
 }
+.container {
+    max-width: 950px;
+    margin: 0 auto;
+}
 @import 'base/_variables';
 @import 'blocks/promo';
 @import 'blocks/header';
 @import 'blocks/buttons';
 @import 'blocks/title';
 @import 'blocks/advantages';
-@import 'media';
 @import 'blocks/consultation';
 @import 'blocks/forms';
+@import 'blocks/carousel';
 
-.container {
-    max-width: 950px;
-    margin: 0 auto;
-}
+@import 'blocks/media';
