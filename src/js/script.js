@@ -4,6 +4,7 @@ const slider = tns({
     items: 1,
     center: true,
     nav: false,
+    controls: false
     
     // rewind: true
 
