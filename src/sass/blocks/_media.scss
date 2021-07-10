@@ -52,7 +52,15 @@
             font-size: 17px;
         }
     }
-    
+    .carousel {
+        .prev, .next {
+            
+            img {
+                width: 24px;
+                height: 40px;
+            }
+        }
+    }
     
 }
 @media (max-width: 767px) {
@@ -123,6 +131,15 @@
         margin: 0 auto;
         margin-top: 30px;
 
+    }
+    .carousel {
+        .prev, .next {
+            
+            img {
+                width: 20px;
+                height: 34px;
+            }
+        }
     }
 }
 @media (max-width: 575px) {   
@@ -215,6 +232,15 @@
         width: 100%;
         height: 45px;
         font-size: 14px;
+    }
+    .carousel {
+        padding: 81px 10px;
+        .container {
+            width: 100%;
+        }
+        .prev, .next {
+            display: none;
+        }
     }
 }
 
